@@ -4,15 +4,16 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UIElements;
 
+
 public class PlayerController : MonoBehaviour
 {
     public InputAction MoveAction;
     Rigidbody2D rigidbody2d;
     Vector2 move;
+    public float speed = 3.0f;
+    public int health { get { return currentHealth; } }
     public int maxHealth = 5;
     int currentHealth = 1;
-
-    public float speed = 3.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -65,14 +66,14 @@ public class PlayerController : MonoBehaviour
         transform.position = position;
         */
     }
-    public void ChangeHealth(int amount)
-    {
-        currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
-        Debug.Log(currentHealth + "/" + maxHealth);
-    }
     void FixedUpdate()
     {
         Vector2 position = (Vector2)rigidbody2d.position + move * speed * Time.deltaTime;
         rigidbody2d.MovePosition(position);
+    }
+    public void ChangeHealth(int amount)
+    {
+        currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+        Debug.Log(currentHealth + "/" + maxHealth);
     }
 }
