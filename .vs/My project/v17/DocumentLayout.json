@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\qwert\\Documents\\Personal Programming Projects\\2D Beginner Adventure Game\\My project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\qwert\\documents\\personal programming projects\\2d beginner adventure game\\my project\\assets\\scripts\\healthcollectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthcollectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\qwert\\Documents\\Personal Programming Projects\\2D Beginner Adventure Game\\My project\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\qwert\\documents\\personal programming projects\\2d beginner adventure game\\my project\\assets\\damagezone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\damagezone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\qwert\\Documents\\Personal Programming Projects\\2D Beginner Adventure Game\\My project\\assets\\scripts\\healthcollectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthcollectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "DamageZone.cs",
+              "DocumentMoniker": "C:\\Users\\qwert\\Documents\\Personal Programming Projects\\2D Beginner Adventure Game\\My project\\Assets\\DamageZone.cs",
+              "RelativeDocumentMoniker": "Assets\\DamageZone.cs",
+              "ToolTip": "C:\\Users\\qwert\\Documents\\Personal Programming Projects\\2D Beginner Adventure Game\\My project\\Assets\\DamageZone.cs",
+              "RelativeToolTip": "Assets\\DamageZone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T01:10:50.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "HealthCollectible.cs",
               "DocumentMoniker": "C:\\Users\\qwert\\Documents\\Personal Programming Projects\\2D Beginner Adventure Game\\My project\\Assets\\Scripts\\HealthCollectible.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthCollectible.cs",
@@ -30,18 +47,17 @@
               "RelativeToolTip": "Assets\\Scripts\\HealthCollectible.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T01:34:51.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T01:34:51.873Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\qwert\\Documents\\Personal Programming Projects\\2D Beginner Adventure Game\\My project\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\qwert\\Documents\\Personal Programming Projects\\2D Beginner Adventure Game\\My project\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwE8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-10T22:25:54.644Z",
               "EditorCaption": ""
